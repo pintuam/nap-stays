@@ -1,0 +1,225 @@
+@import "./bootstrap.min.css";
+@import "./owl.carousel.min.css";
+@import "./owl.theme.default.min.css";
+@import "./core.css";
+@import "./shortcode/shortcodes.css";
+@import "./style.css";
+@import "./responsive.css";
+@import "./custom.css";
+@import "./header.css";
+@import "./font-awesome.min.css";
+
+.container {
+  padding: 0px;
+}
+
+/* Service Six Area css
+=============================================================*/
+.service_six_area .main_title {
+    padding-bottom: 60px;
+  }
+  
+  .service_s_inner {
+    margin-bottom: -45px;
+    overflow: hidden;
+  }
+  
+  .ss_item {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+  .ss_item h4 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: #424242;
+    padding: 25px 0px 18px 0px;
+  }
+  
+  .ss_item p {
+    line-height: 27px;
+    color: #6b6d6f;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .p_100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* End Service Six Area css
+  =============================================================*/
+
+  /* Main title css
+============================================================================================ */
+.main_title {
+    text-align: center;
+  }
+  
+  .main_title h2 {
+    font-size: 35px;
+    color: #424242;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .main_title h2:before {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #424242;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .main_title h2 span {
+    color: #fc5a1a;
+  }
+  
+  .main_title p {
+    max-width: 555px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6b6d6f;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: .28px;
+  }
+  
+  .main_title2 {
+    text-align: center;
+    padding-bottom: 55px;
+  }
+  
+  .main_title2 h2 {
+    font-size: 30px;
+    color: #121921;
+    font-family: "Heebo", sans-serif;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .main_title2 p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6b6d6f;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: .28px;
+  }
+  
+  .gray h2 {
+    color: #4f4f4f;
+  }
+  
+  .gray p {
+    color: #898989;
+  }
+  
+  .white h2 {
+    color: #fff;
+  }
+  
+  .white p {
+    color: #fff;
+  }
+  
+  /* End Main Title css
+  ============================================================================================ */
+
+
+/*testimonial ara two css
+======================================================*/
+.testimonial_area_two {
+    padding-bottom: 100px;
+    margin-top: 0px;
+  }
+  
+  .testimonial_area_two .video_inner {
+    margin-bottom: 120px;
+  }
+  
+  .testimonial-carousel {
+    padding: 0px 60px;
+  }
+  
+  .testimonial-carousel .item {
+    margin-top: 40px;
+    margin-bottom: 105px;
+  }
+  
+  .testimonial-carousel .slider-item {
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 27.55px 1.45px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 4px 27.55px 1.45px rgba(0, 0, 0, 0.09);
+    padding: 0px 50px;
+  }
+  
+  .testimonial-carousel .slider-item i {
+    font-size: 55px;
+    color: #3498db;
+    margin-top: -30px;
+  }
+  
+  .testimonial-carousel .slider-item p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+  
+  .testimonial-carousel .slider-item h4 {
+    font: 300 24px/36px "Montserrat", sans-serif;
+    color: #424242;
+    letter-spacing: 0.20;
+  }
+  
+  .testimonial-carousel .slider-item h6 {
+    font: 400 14px/36px "Montserrat", sans-serif;
+    letter-spacing: 0.20;
+    color: #6b6d6f;
+    margin-bottom: 25px;
+  }
+  
+  .testimonial-carousel .slider-item .img img {
+    width: auto;
+    display: inline-block;
+    margin-bottom: -27px;
+  }
+  
+  .owl-dots {
+    text-align: center;
+  }
+  
+  .owl-dots .owl-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    display: inline-block;
+    margin: 0px 5px;
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+  }
+  
+  .owl-dots .owl-dot.active {
+    background: #3498db;
+    width: 17px;
+    height: 17px;
+  }
+
+  /* End Testimonial Area css
+  ============================================================================================ */
